@@ -16,7 +16,7 @@ from sentence_transformers import SentenceTransformer
 
 # ---- Settings you must be able to explain in an interview ----
 EMBED_MODEL = "all-MiniLM-L6-v2"   # turns text into 384-dimensional vectors
-LLM_MODEL = "llama-3.1-8b-instant"  # check console.groq.com for current model names
+LLM_MODEL = "openai/gpt-oss-20b"  # check console.groq.com for current model names
 CHUNK_SIZE = 800                    # characters per chunk
 CHUNK_OVERLAP = 150                 # characters shared between neighbouring chunks
 TOP_K = 4                           # number of chunks retrieved per question
