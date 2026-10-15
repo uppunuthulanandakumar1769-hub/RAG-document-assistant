@@ -25,10 +25,10 @@ Set your free Groq API key (get one at console.groq.com):
 
 ```bash
 # Windows PowerShell
-$env:GROQ_API_KEY="your_key_here"
+$env:GROQ_API_KEY="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"
 
 # Mac / Linux
-export GROQ_API_KEY=your_key_here
+export GROQ_API_KEY=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
 ```
 
 Then start the app:
